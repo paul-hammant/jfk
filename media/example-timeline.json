@@ -3,11 +3,11 @@
         "media": {
           "url": "https://digital.lib.uidaho.edu/digital/iiif/spec_cs/74/full/max/0/default.jpg",
           "caption": "Priest Lake (Idaho)",
-          "credit": "C.H. Shattuck Lantern Slides, 1904-1910"
+          "credit": "C.H. Shattuck Lantern Slides, 1904-1910 pah <b>pah</b> pah"
         },
         "text": {
           "headline": "C.H. Shattuck Lantern Slides, 1904-1910 Timeline",
-          "text": "UI Professor Charles Houston Shattuck used these slides as a teaching tool in the early 20th century. They depict the University of Idaho, as well as the wilderness of Idaho and Idaho residents' attempts at domesticating it."
+          "text": "UI Professor Charles Houston Shattuck used these slides as a teaching tool in the early 20th century. They depict the University of Idaho, as well as the wilderness of Idaho and Idaho residents' attempts at domesticating it. <button type='button'>Click Me!</button>"
         }
     },
     "events": [
