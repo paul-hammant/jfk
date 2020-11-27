@@ -1,25 +1,31 @@
-# TimelineJS
+# Using timelinejs-template 
 
-By default [TimelineJS](https://timeline.knightlab.com/) is set up to work with their "authoring tool" using Google Sheets, providing an easy way to set up and publish a timeline embed.
-However, relying on Google Sheets can be problematic:
+The basic steps to using timelinejs-template are: 
 
-- API outages and changes unexpectedly break the TimelineJS service
-- you may not have a convenient location to host your media files
-- Google platform exposes your users to unnecessary privacy tradeoffs
+1. create repository from the template
+2. add timeline data
+3. add timeline to a page
 
-To avoid these issues you can [self-host your TimelineJS projects](https://timeline.knightlab.com/docs/instantiate-a-timeline.html) and use the standalone javascript to create timelines without relying on any 3rd party services.
+There are two builtin options for adding TimelineJS timelines to the pages of your site: Basic Timeline (using a spreadsheet) or JSON Timeline (using JSON file). 
+How the timeline is embedded in the page can be controlled using the `layout` value.
+These options are described below.
+See docs/customize.md for builtin options to customize the website nav and look. 
 
-The timelinejs-template implements the basics of TimelineJS in a simple Jekyll project template to make self-hosting easy on GitHub Pages.
-This approach is more sustainable, keeping the library assets, metadata, and media together in a self-contained package (rather than multiple 3rd party platforms).
+## Set up repository
+
+- Visit timelinejs-template: <https://github.com/thecdil/timelinejs-template>
+- Make your own copy of the repository by clicking the green "Use this template" button (alternatively, use Import or manually copy files to a new repo).
+- Edit `_config.yml` with your site information.
+    - `title` will appear in the navbar with link to home page.
+    - `year` and `author` appear in footer.
+    - site urls (`url` and `baseurl`) are optional if using GitHub Pages, but should be filed in if hosting else where.
+- Activate GitHub Pages. 
+    - On your repository visit "Settings", scroll down to "GitHub Pages" section, select Branch "main" from the drop down, and click Save. 
+    - Once activated, it will provide your new URL, following the pattern `https://username.github.io/repository_name`
 
 ## Create a Basic Timeline
 
-### 1. Set up repository 
-
-- Make your own copy of the [timelinejs-template](https://github.com/thecdil/timelinejs-template) repository by clicking the green "Use this template" button (alternatively, use Import or manually copy files to a new repo).
-- Activate GitHub Pages in your new repository's "Settings".
-
-### 2. Create Timeline Spreadsheet 
+### 1. Create Timeline Spreadsheet 
 
 Create a [TimelineJS spreadsheet](https://timeline.knightlab.com/docs/using-spreadsheets.html) following the template--or use an one from your existing timeline embed. 
 You can start from the file "timelinejs3-template.csv" in this repository or make a copy of the [TimelineJS template](https://drive.google.com/previewtemplate?id=1pHBvXN7nmGkiG8uQSUB82eNlnL8xHu6kydzH_-eguHQ&mode=public) in Google Sheets. 
@@ -38,14 +44,14 @@ These limitations:
 - "Time" column is not implemented
 - "Eras" are not implemented
 
-### 3. Add spreadsheet to repository 
+### 2. Add spreadsheet to repository 
 
 Download or save your spreadsheet as a CSV (it must be a CSV!). 
 Rename to use a filename with no spaces or special characters (other than dash `-` or underscore `_`), e.g. `example-timeline.csv`.
 
 Copy your spreadsheet into the "_data" folder in your repository.
 
-### 4. Add timeline to a page
+### 3. Add timeline to a page
 
 Add the timeline to any page in the repository using the front matter option `timeline:` with the name of your CSV file (minus the `.csv` extension).
 Optionally choose a `layout:` value depending on how you want to display the timeline.
@@ -60,7 +66,10 @@ timeline: demo-timeline
 ---
 ```
 
-Layout options:
+## Layout options
+
+The page `layout` set in the front matter controls how the timeline will be displayed in the template.
+These options are available:
 
 - `page` timeline will be inside a container, with navbar, title in h1, and any content above.
 - `page-full-width` timeline will be inside a container-fluid, with navbar, title in h1, and any content above.
@@ -74,9 +83,8 @@ If the `timeline` option is not added to the front matter, the stub will act as 
 
 You may have a TimelineJS formatted JSON file, for example downloaded from a [CollectionBuilder](https://collectionbuilder.github.io/) data export, and want a place to host it.
 
-1. Set up your project repository as in the Basic example above.
-2. Add your TimelineJS JSON file to the repository's "media" folder, e.g. `media/example-timeline.json`
-3. Add the timeline to any page in the repository using the front matter option `timeline-json` with the name of your json file (including the extension). Optionally choose a `layout` value depending on how you want to display the timeline.
+1. Add your TimelineJS JSON file to the repository's "media" folder, e.g. `media/example-timeline.json`
+2. Add the timeline to any page in the repository using the front matter option `timeline-json` with the name of your json file (including the extension). Optionally choose a `layout` value depending on how you want to display the timeline.
 
 For example, your front matter might look like:
 
@@ -91,7 +99,7 @@ timeline-json: example-timeline.json
 
 # Reference
 
-- [TimelineJS json docs](https://timeline.knightlab.com/docs/json-format.html)
-- [json example](https://github.com/NUKnightLab/TimelineJS3/blob/master/website/templates/examples/houston/timeline3.json)
 - [TimelineJS js docs](https://timeline.knightlab.com/docs/instantiate-a-timeline.html)
 - [Spreadsheet docs](https://timeline.knightlab.com/docs/using-spreadsheets.html)
+- [TimelineJS json docs](https://timeline.knightlab.com/docs/json-format.html)
+- [json example](https://github.com/NUKnightLab/TimelineJS3/blob/master/website/templates/examples/houston/timeline3.json)
