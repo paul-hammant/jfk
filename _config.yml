@@ -9,10 +9,10 @@
 #######
 # SITE SETTINGS
 #
-title: timelinejs-template
-description: "basic template for self-hosted TimelineJS"
+title: JFK timelines
+description: "Timelines of important JFK events"
 year: 2020
-author: evan will 
+author: various
 # add search box to navbar, true/false
 search: false
 

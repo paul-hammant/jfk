@@ -1,5 +1,15 @@
 <footer class="mt-auto border-top">
     <div class="container my-4 ">
-        <p><a href="{{ '/' | relative_url }}">{{ site.title }}</a> | {{ site.author }} {{ site.year }}</p>
+        <p><a href="{{ '/' | relative_url }}">{{ site.title }}</a></p>
+        <p style="font-size: 60%"><b>Template:</b>
+            <a href="https://twitter.com/knightlab">@knightlab</a>'s (Northwestern University) TimelineJS3, in a
+            Git-centric static "timelines" app from the template modifications made by the Center for Digital Inquiry &
+            Learning (CDIL - University of Idaho). See <a href="https://github.com/thecdil/timelinejs-template">template
+                source</a>.
+        </p>
+        <p style="font-size: 60%"><b>Site Source:</b> <a
+                href="https://github.com/paul-hammant/timelinejs-template">on GitHub - Pull Requests encouraged</a>
+            <span>Site generated from GitHub Commit: {{ site.github.build_revision.}}</span>
+        </p>
     </div>
 </footer>
