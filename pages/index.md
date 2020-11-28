@@ -5,4 +5,4 @@ nav_order: 3
 timeline-json: jfk-presidency.json
 ---
 
-Events in the Presidency of the 35th president of the United States, John Fitzgerald Kennedy (JFK).
+Events in the Presidency of the 35th president of the United States, John Fitzgerald Kennedy (JFK). [Link to death here - TODO], [link to life up to presidential run here - TODO]
