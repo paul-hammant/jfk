@@ -1,0 +1,121 @@
+{
+  "title": {
+    "media": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/6/6b/John_F._Kennedy_Lying_in_State_November_24%2C_1963_%2810965699893%29.jpg",
+      "caption": "President Kennedy casket rests atop the Lincoln catafalque in Capitol Rotunda",
+      "credit": "Architect of the Capitol photographers"
+    },
+    "text": {
+      "headline": "Detail of the events around President John Fitzgerald Kennedy's death",
+      "text": "Clipped from Wikipedia, a series of events of note around the 35th president of the USA's death represented in a timeline"
+    }
+  },
+  "events": [
+    {
+      "media": {
+        "url": "",
+        "caption": "",
+        "link": "",
+        "credit": ""
+      },
+      "start_date": {
+        "year": "1963",
+        "month": 11,
+        "day": 21
+      },
+      "text": {
+        "headline": "JFK's last edict before his Dallas trip",
+        "text": "President Kennedy asks his economic advisers to prepare the War on Poverty for 1964. Less than two months after the President's assassination, President Johnson introduces the legislation in his first State of the Union address on January 8, 1964, and two of the major pieces of related legislation – the Economic Opportunity Act of 1964 and the Social Security Act of 1965 – are signed into law on August 20, 1964, and July 30, 1965, respectively."
+      }
+    },
+    {
+      "media": {
+        "url": "",
+        "caption": "",
+        "link": "",
+        "credit": ""
+      },
+      "start_date": {
+        "year": "1963",
+        "month": 11,
+        "day": 22,
+        "hour": 12,
+        "minute": 30
+      },
+      "text": {
+        "headline": "",
+        "text": "President Kennedy and Texas Governor John Connally are shot at 12:30 p.m. CST (18:30 UTC) in Dealey Plaza, Dallas, Texas. They are rushed to Parkland Memorial Hospital, where Kennedy is pronounced dead at 1:00 p.m. CST (19:00 UTC). Lee Harvey Oswald is arrested and charged with the murder. Oswald is shot and killed two days later by nightclub owner Jack Ruby.\n"
+      }
+    },
+    {
+      "media": {
+        "url": "",
+        "caption": "",
+        "link": "",
+        "credit": ""
+      },
+      "start_date": {
+        "year": "1963",
+        "month": 11,
+        "day": 22,
+        "hour": 14,
+        "minute": 38
+      },
+      "text": {
+        "headline": "",
+        "text": "Vice President Lyndon B. Johnson succeeds to the Presidency and is sworn in aboard Air Force One."
+      }
+    },
+    {
+      "media": {
+        "url": "",
+        "caption": "",
+        "link": "",
+        "credit": ""
+      },
+      "start_date": {
+        "year": "1963",
+        "month": 11,
+        "day": 23
+      },
+      "text": {
+        "headline": "",
+        "text": "Kennedy lies in repose in the White House East Room for a period of 24 hours. At 4:45 pm, President Johnson issues Proclamation 3561, declaring November 25, the day of the funeral service, to be a national day of mourning."
+      }
+    },
+    {
+      "media": {
+        "url": "",
+        "caption": "",
+        "link": "",
+        "credit": ""
+      },
+      "start_date": {
+        "year": "1963",
+        "month": 11,
+        "day": 24
+      },
+      "text": {
+        "headline": "",
+        "text": "Kennedy lies in state for a period of 18 hours. NBC broadcasts live uninterrupted coverage of people passing through the Capitol rotunda during the overnight hours."
+      }
+    },
+    {
+      "media": {
+        "url": "",
+        "caption": "",
+        "link": "",
+        "credit": ""
+      },
+      "start_date": {
+        "year": "1963",
+        "month": 11,
+        "day": 25
+      },
+      "text": {
+        "headline": "",
+        "text": "Kennedy's funeral service is held. Representatives from over 90 countries attend the ceremony. President Kennedy is laid to rest at Arlington National Cemetery. Upon the request of the now-former First Lady Jacqueline Kennedy on the day before, an eternal flame, inspired by the Tomb of the Unknown Soldier at the Arc de Triomphe in Paris, known later as the John F. Kennedy Eternal Flame, is set up by the United States Army Corps of Engineers, and first lit by Mrs. Kennedy.\n"
+      }
+    }
+  ]
+}
