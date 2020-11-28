@@ -43,16 +43,16 @@
         "minute": 30
       },
       "text": {
-        "headline": "",
+        "headline": "Kennedy shot",
         "text": "President Kennedy and Texas Governor John Connally are shot at 12:30 p.m. CST (18:30 UTC) in Dealey Plaza, Dallas, Texas. They are rushed to Parkland Memorial Hospital, where Kennedy is pronounced dead at 1:00 p.m. CST (19:00 UTC). Lee Harvey Oswald is arrested and charged with the murder. Oswald is shot and killed two days later by nightclub owner Jack Ruby.\n"
       }
     },
     {
       "media": {
-        "url": "",
-        "caption": "",
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cc/Lyndon_B._Johnson_taking_the_oath_of_office%2C_November_1963.jpg/1024px-Lyndon_B._Johnson_taking_the_oath_of_office%2C_November_1963.jpg",
+        "caption": "Lyndon B. Johnson taking the oath of office aboard Air Force One at Love Field Airport",
         "link": "",
-        "credit": ""
+        "credit": "An employee of the Executive Office of the President of the United States"
       },
       "start_date": {
         "year": "1963",
@@ -62,7 +62,7 @@
         "minute": 38
       },
       "text": {
-        "headline": "",
+        "headline": "Lyndon B. Johnson sworn in as 36th president",
         "text": "Vice President Lyndon B. Johnson succeeds to the Presidency and is sworn in aboard Air Force One."
       }
     },
@@ -79,7 +79,7 @@
         "day": 23
       },
       "text": {
-        "headline": "",
+        "headline": "Kennedy lies in repose - White House",
         "text": "Kennedy lies in repose in the White House East Room for a period of 24 hours. At 4:45 pm, President Johnson issues Proclamation 3561, declaring November 25, the day of the funeral service, to be a national day of mourning."
       }
     },
@@ -96,7 +96,7 @@
         "day": 24
       },
       "text": {
-        "headline": "",
+        "headline": "Kennedy lies in state - US Capitol building",
         "text": "Kennedy lies in state for a period of 18 hours. NBC broadcasts live uninterrupted coverage of people passing through the Capitol rotunda during the overnight hours."
       }
     },
@@ -110,11 +110,32 @@
       "start_date": {
         "year": "1963",
         "month": 11,
-        "day": 25
+        "day": 25,
+        "hour": 12,
+        "minute": 14
       },
       "text": {
-        "headline": "",
-        "text": "Kennedy's funeral service is held. Representatives from over 90 countries attend the ceremony. President Kennedy is laid to rest at Arlington National Cemetery. Upon the request of the now-former First Lady Jacqueline Kennedy on the day before, an eternal flame, inspired by the Tomb of the Unknown Soldier at the Arc de Triomphe in Paris, known later as the John F. Kennedy Eternal Flame, is set up by the United States Army Corps of Engineers, and first lit by Mrs. Kennedy.\n"
+        "headline": "Kennedy's funeral at St. Matthew's Cathedral, Washington D.C.",
+        "text": "Kennedy's funeral service is held. Representatives from over 90 countries attend the ceremony."
+      }
+    },
+    {
+      "media": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7a/JFK_Funeral_and_temporary_grave_November_25_1963.jpg/582px-JFK_Funeral_and_temporary_grave_November_25_1963.jpg",
+        "caption": "Mrs. Jacqueline Kennedy and U.S. Attorney General Robert F. Kennedy walk away from the casket of slain President John F. Kennedy during the presidential funeral at Arlington National Cemetery on November 25, 1963. Mrs. Kennedy carries the flag which draped her husband's casket under her arm. The evergreen boughs which cover the base of the temporary Eternal Flame (which was placed at the head of the casket) can be seen between the two people. Cardinal Richard Cushing (to the right of the casket, in black cape) has his back to the camera. President Lyndon B. Johnson can be seen in the upper middle-left portion of the image. The Presidential Honor Guard is just in front of Mrs. Kennedy, to the left. (Note the presence of the U.S. Army Special Forces soldier, wearing the traditional green beret at Mrs. Kennedy's request.)",
+        "link": "",
+        "credit": "A National Park Service employee"
+      },
+      "start_date": {
+        "year": "1963",
+        "month": 11,
+        "day": 25,
+        "hour": 15,
+        "minute": 34
+      },
+      "text": {
+        "headline": "Kennedy's burial",
+        "text": "President Kennedy is laid to rest at Arlington National Cemetery. Upon the request of the now-former First Lady Jacqueline Kennedy on the day before, an eternal flame, inspired by the Tomb of the Unknown Soldier at the Arc de Triomphe in Paris, known later as the John F. Kennedy Eternal Flame, is set up by the United States Army Corps of Engineers, and first lit by Mrs. Kennedy.\n"
       }
     }
   ]
