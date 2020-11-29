@@ -4,6 +4,8 @@ nav: About
 nav_order: 2
 ---
 
+A simple timeline representation of events that pertain to a single topic. Made stronger by being backed by Git on GitHub.
+
 # History of this timeline technology
 
 Up for discussion:
