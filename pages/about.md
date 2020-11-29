@@ -4,24 +4,32 @@ nav: About
 nav_order: 2
 ---
 
-[timelinejs-template](https://github.com/thecdil/timelinejs-template) is basic Jekyll template for creating self-hosted [TimelineJS](https://timeline.knightlab.com/) on GitHub Pages.
-It is compatible with existing timelines created in Google Sheets following the TimelineJS template or can be used with TimelineJS formatted JSON files.
+# History of this timeline technology
 
-{% include button.html text="Get Started" link="https://github.com/thecdil/timelinejs-template/blob/main/docs/timeline.md" color="success" %}
+'timelinejs-template' is a template timeline technology that uses Git & GitHub, that this 'timelinez/jfk' repo is based on.
 
-## Why timelinejs-template?
+This 'http://timelinez.github.io/jfk' usage has a small amount of modifications versus the template it is based on [timelinejs-template](https://github.com/thecdil/timelinejs-template) by Center for Digital Inquiry and Learning (CDIL) a "digital scholarship" organization within the University of Idaho. 
 
-[TimelineJS](https://timeline.knightlab.com/) is a very popular open-source project to create visual timelines that can be embedded on a webpage.
-Their "authoring tool" provides an easy way to create and publish a timeline embed using Google Sheets.
-This is great for getting started with minimal setup and no overhead.
+CDIL's template (substantially by Evan Williamson) is further work based on [Kinight Lab](https://knightlab.northwestern.edu/) (Northwestern University) multi-year buildout of [Timeline JS3](https://github.com/NUKnightLab/TimelineJS3). Some twenty-five contributors have made TimelineJS3 polished control (most frequent are Joe Germuska , Zach Wise, Heather Billings, Jennifer Y Wilson, Scott Bradley).
 
-However, relying on Google Sheets can be problematic:
+CDIL's work shifts emphasis from GoogleDocs for the raw curation of timelines, to JSON (or CSV) co-located with the repo in question (under source control).
 
-- API outages and changes unexpectedly break the TimelineJS service
-- you may not have a convenient location to host your media files or a website to embed your timelines
-- Google platform exposes your users to unnecessary privacy tradeoffs
+CDIL also maintain an "about" page here: [thecdil.github.io/timelinejs-template/about.html](https://thecdil.github.io/timelinejs-template/about.html)
 
-To avoid these issues you can [self-host your TimelineJS projects](https://timeline.knightlab.com/docs/instantiate-a-timeline.html) and use the standalone javascript to create timelines without relying on any 3rd party services.
+## Changes in 'timelinez/jfk' over 'thecdil/timelinejs-template'. 
 
-The `timelinejs-template` implements the basics of TimelineJS in a simple Jekyll project template to make self-hosting easy on [GitHub Pages](https://pages.github.com/).
-This approach is more sustainable, keeping the library assets, metadata, and media together in a self-contained package (rather than multiple 3rd party platforms).
+* Git commit ID is in each generated page (at the bottom, with reduced font size)
+* The JavaScript techologies are sourced from a CDN now
+* Hours/Minute added to some timeline entries (that was supported in thecdil/timelinejs-template but now shown)
+
+## Changes vs [timelinez/jfk-OLD](https://github.com/timelinez/jfk-OLD)
+
+No part of the JS technology from that repos is retained. Only the timeline was taken forward (fixed up & enhanced).
+
+# Why Git & GitHub
+
+Git is a history maintaining merkle tree. You can to batch operations on it (clone/checkout, change files en masse, commit back in one commit). You can keep note of the hashes of the published items and enjoy that it is tamper evident as a system. You can solicit and review changes from people outside your organization if you want. Others can verify that times presented online purported to be from a Git repo on GitHub can actually be verified as such. Indeed, screenshots purported to be from a repo can be verified if you're willing to type in a commit ID as part of your verification.
+
+![image](https://user-images.githubusercontent.com/82182/100537959-a26a0280-3224-11eb-83a9-046c52b8bf62.png)
+ 
+ GitHub also allow forks. One org could take another org's timeline and publish their own modifications to it. In the case of JFK's death, conspiracy theory people could publish their own timeline including all the additional events they think happened. Same rules for them though, Git makes their changes trackable and verifiable.  Orgs would add a license to make usage of the trademarks and copyright conditional for forked repositories.
