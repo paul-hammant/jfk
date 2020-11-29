@@ -33,6 +33,10 @@ CDIL also maintain an "about" page here for the template here: [thecdil.github.i
 
 No part of the JS technology from that repos is retained here. Only the timeline was taken forward (fixed up & enhanced). The `timelinez/jfk-OLD` was an earlier attempt to engineer the same experience, though with a vertical timeline rather than horizontal.
 
+## Further Changes Needed
+
+A single timeline in a long multi-event JSON document is going to be problematic for merging. Better would be one JSON file per event.
+
 # Why Git & GitHub
 
 Git is a history maintaining merkle tree. You can to batch operations on it (clone/checkout, change files en masse, commit back in one commit). You can keep note of the hashes of the published items and enjoy that it is tamper evident as a system. You can solicit and review changes from people outside your organization if you want. Others can verify that times presented online purported to be from a Git repo on GitHub can actually be verified as such. Indeed, screenshots purported to be from a repo can be verified if you're willing to type in a commit ID as part of your verification.
