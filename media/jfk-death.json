@@ -49,6 +49,25 @@
     },
     {
       "media": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2e/TexasTheatre.jpg/1024px-TexasTheatre.jpg",
+        "caption": "Texas Theatre, in Dallas, Texas, March 19, 2006",
+        "link": "",
+        "credit": "Wikipedia user 'Shaunnol'"
+      },
+      "start_date": {
+        "year": "1963",
+        "month": 11,
+        "day": 22,
+        "hour": 13,
+        "minute": 40
+      },
+      "text": {
+        "headline": "Lee Harvey Oswald arrested",
+        "text": "t Lee Harvey Oswald arrested at 'Texas Theatre' in Oak Lawn after ducking into the premises without paying and being reported to police by a member of staff"
+      }
+    },
+    {
+      "media": {
         "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cc/Lyndon_B._Johnson_taking_the_oath_of_office%2C_November_1963.jpg/1024px-Lyndon_B._Johnson_taking_the_oath_of_office%2C_November_1963.jpg",
         "caption": "Lyndon B. Johnson taking the oath of office aboard Air Force One at Love Field Airport",
         "link": "",
@@ -81,6 +100,25 @@
       "text": {
         "headline": "Kennedy lies in repose - White House",
         "text": "Kennedy lies in repose in the White House East Room for a period of 24 hours. At 4:45 pm, President Johnson issues Proclamation 3561, declaring November 25, the day of the funeral service, to be a national day of mourning."
+      }
+    },
+    {
+      "media": {
+        "url": "https://en.wikipedia.org/wiki/Assassination_of_John_F._Kennedy#/media/File:Ruby_shoots_Oswald.jpg",
+        "caption": "Jack Ruby shooting Oswald",
+        "link": "https://www.aoc.gov/what-we-do/programs-ceremonies/lying-in-state-honor",
+        "credit": "Robert H. Jackson"
+      },
+      "start_date": {
+        "year": "1963",
+        "month": 11,
+        "day": 24,
+        "hour": 11,
+        "minute": 21
+      },
+      "text": {
+        "headline": "Oswald shot",
+        "text": "As live television cameras were covering his transfer from the city jail to the county jail, Oswald was fatally shot in the basement of Dallas Police Headquarters by Dallas nightclub operator Jack Ruby"
       }
     },
     {
