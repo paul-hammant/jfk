@@ -15,13 +15,13 @@ Up for discussion:
 
 'timelinejs-template' [2] is a template timeline technology that uses Git & GitHub, that this 'timelinez/jfk' [1] repo is based on.
 
-This 'timelinez/jfk' [1] usage has a small amount of modifications versus the template [2] it is based on. That template [2[ is by Center for Digital Inquiry and Learning (CDIL) a "digital scholarship" organization within the University of Idaho. 
+This 'timelinez/jfk' [1] usage has a small amount of modifications versus the template [2] it is based on. That template [2] is by Center for Digital Inquiry and Learning (CDIL) a "digital scholarship" organization within the University of Idaho. From CDIL's website: *"The Center for Digital Inquiry and Learning (CDIL) is a collaboration between the College of Letters, Arts and Social Sciences (CLASS) and the University of Idaho Library. Its purpose is to advance digital scholarship opportunities at the University of Idaho."*
 
-CDIL's template [2] (substantially by Evan Williamson) is further work based on [Kinight Lab](https://knightlab.northwestern.edu/) (Northwestern University) multi-year buildout of [Timeline JS3](https://github.com/NUKnightLab/TimelineJS3). Some twenty-five contributors have made TimelineJS3 polished UI control (most frequent are Joe Germuska , Zach Wise, Heather Billings, Jennifer Y Wilson, Scott Bradley).
+CDIL's template [2] (substantially by Evan Williamson) is further work based on [Knight Lab](https://knightlab.northwestern.edu/)'smulti-year buildout of [Timeline JS3](https://github.com/NUKnightLab/TimelineJS3). Some twenty-five contributors have made TimelineJS3 polished UI control (most frequent are Joe Germuska, Zach Wise, Heather Billings, Jennifer Y Wilson, Scott Bradley). From their website, *"Northwestern University Knight Lab is a community of designers, developers, students, and educators working on experiments designed to push journalism into new spaces."*
 
-CDIL's work shifts emphasis from GoogleDocs for the raw curation of timelines, to JSON (or CSV) co-located with the repo in question (under source control).
+CDIL's work shifts emphasis for the raw curation of timelines from GoogleDocs to JSON (or CSV) co-located with the repo in question (under source control).
 
-CDIL also maintain an "about" page here: [thecdil.github.io/timelinejs-template/about.html](https://thecdil.github.io/timelinejs-template/about.html)
+CDIL also maintain an "about" page here for the template here: [thecdil.github.io/timelinejs-template/about.html](https://thecdil.github.io/timelinejs-template/about.html)
 
 ## Changes in 'timelinez/jfk' [1] over 'thecdil/timelinejs-template' [2]. 
 
