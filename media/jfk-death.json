@@ -13,19 +13,21 @@
   "events": [
     {
       "media": {
-        "url": "",
-        "caption": "",
+        "url": "https://www.youtube.com/watch?v=NIDiIy3IDEo",
+        "caption": "Kennedy arrives at Dallas Love Field airport",
         "link": "",
-        "credit": ""
+        "credit": "WFAA (ABC) channel 8"
       },
       "start_date": {
         "year": "1963",
         "month": 11,
-        "day": 21
+        "day": 22,
+        "hour": 11,
+        "minute": 40
       },
       "text": {
-        "headline": "JFK's last edict before his Dallas trip",
-        "text": "President Kennedy asks his economic advisers to prepare the War on Poverty for 1964. Less than two months after the President's assassination, President Johnson introduces the legislation in his first State of the Union address on January 8, 1964, and two of the major pieces of related legislation – the Economic Opportunity Act of 1964 and the Social Security Act of 1965 – are signed into law on August 20, 1964, and July 30, 1965, respectively."
+        "headline": "Arrival in Dallas",
+        "text": "Kennedy, his wife Jacqueline, and the rest of the presidential entourage arrived at Love Field in northwest Dallas aboard Air Force One after a very short flight from nearby Carswell Air Force Base, west of Fort Worth"
       }
     },
     {
