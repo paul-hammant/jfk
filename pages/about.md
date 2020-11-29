@@ -1,5 +1,5 @@
 ---
-title: About timelinejs-template
+title: About this site & repo
 nav: About
 nav_order: 2
 ---
