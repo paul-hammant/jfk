@@ -47,7 +47,7 @@ Git is a history maintaining merkle tree. You can to batch operations on it (clo
  
  Going forward, kids are going to be taught about Merkle trees when they are ten years old, and their important for democracy and rule of law.
  
- ## Own your mistakes
+## Own your mistakes
 
 Sometime you're going to make a mistake putting event detail in a timeline:
  

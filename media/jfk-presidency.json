@@ -1504,7 +1504,7 @@
       },
       "text": {
         "headline": "",
-        "text": "President Kennedy visits Cleburne County, Arkansas, to dedicate the Greers Ferry Dam. This is the last public appearance before he was shot in Dallas. See [timeline of his death](./death)"
+        "text": "President Kennedy visits Cleburne County, Arkansas, to dedicate the Greers Ferry Dam. This is the last public appearance before he was shot in Dallas."
       }
     },
     {
@@ -1606,7 +1606,7 @@
       },
       "text": {
         "headline": "",
-        "text": "President Kennedy and Texas Governor John Connally are shot in Dallas, with President Kennedy dying from his injuries. [Drill In](death.txt)"
+        "text": "President Kennedy and Texas Governor John Connally are shot in Dallas, with President Kennedy dying from his injuries. <a href='./death'>]Drill In</a>"
       }
     }
   ]
