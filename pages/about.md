@@ -41,6 +41,16 @@ A single timeline in a long multi-event JSON document is going to be problematic
 
 Git is a history maintaining merkle tree. You can to batch operations on it (clone/checkout, change files en masse, commit back in one commit). You can keep note of the hashes of the published items and enjoy that it is tamper evident as a system. You can solicit and review changes from people outside your organization if you want. Others can verify that times presented online purported to be from a Git repo on GitHub can actually be verified as such. Indeed, screenshots purported to be from a repo can be verified if you're willing to type in a commit ID as part of your verification.
 
-![image](https://user-images.githubusercontent.com/82182/100537959-a26a0280-3224-11eb-83a9-046c52b8bf62.png)
+![image](https://user-images.githubusercontent.com/82182/100543326-554b5800-3247-11eb-83ef-151222d2a476.png)
  
  GitHub also allow forks. One org could take another org's timeline and publish their own modifications to it. In the case of JFK's death, conspiracy theory people could publish their own timeline including all the additional events they think happened. Same rules for them though, Git makes their changes trackable and verifiable.  Orgs would add a license to make usage of the trademarks and copyright conditional for forked repositories.
+ 
+ Going forward, kids are going to be taught about Merkle trees when they are ten years old, and their important for democracy and rule of law.
+ 
+ ## Own your mistakes
+
+Sometime you're going to make a mistake putting event detail in a timeline:
+ 
+![image](https://user-images.githubusercontent.com/82182/100543158-65af0300-3246-11eb-97f2-52502c304929.png)
+
+What is best is if you just fix it with a following commit, and use a message explaining what happened. The mistake still there in your history, but you owned up to it. What the present represenation is what it important and that you'd acted in good faith all along.
