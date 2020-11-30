@@ -13,7 +13,7 @@
   "events": [
     {
       "media": {
-        "thumbnail": "https://upload.wikimedia.org/wikipedia/commons/a/a3/Negitive.jpg",
+        "thumbnail": "",
         "url": "https://www.youtube.com/watch?v=NIDiIy3IDEo",
         "caption": "Kennedy arrives at Dallas Love Field airport",
         "link": "",
@@ -33,6 +33,7 @@
     },
     {
       "media": {
+        "thumbnail": "",
         "url": "https://upload.wikimedia.org/wikipedia/en/5/52/Zapruder-150.jpg",
         "caption": "Frame 150 from the Zapruder film. Kennedy's limousine has just turned onto Elm Street, moments before the first shot, and the President is apparently waving.",
         "link": "",
@@ -52,6 +53,7 @@
     },
     {
       "media": {
+        "thumbnail": "",
         "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2e/TexasTheatre.jpg/1024px-TexasTheatre.jpg",
         "caption": "Texas Theatre, in Dallas, Texas, March 19, 2006",
         "link": "",
@@ -71,6 +73,7 @@
     },
     {
       "media": {
+        "thumbnail": "",
         "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cc/Lyndon_B._Johnson_taking_the_oath_of_office%2C_November_1963.jpg/1024px-Lyndon_B._Johnson_taking_the_oath_of_office%2C_November_1963.jpg",
         "caption": "Lyndon B. Johnson taking the oath of office aboard Air Force One at Love Field Airport",
         "link": "",
@@ -90,6 +93,7 @@
     },
     {
       "media": {
+        "thumbnail": "",
         "url": "https://upload.wikimedia.org/wikipedia/commons/f/f7/JFK_casket_in_White_House.jpg",
         "caption": "Casket of U.S. President John F. Kennedy, in East Room of the White House",
         "link": "",
@@ -107,6 +111,7 @@
     },
     {
       "media": {
+        "thumbnail": "",
         "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/90/Ruby_shoots_Oswald.jpg/1024px-Ruby_shoots_Oswald.jpg",
         "caption": "Jack Ruby shooting Oswald",
         "link": "https://www.aoc.gov/what-we-do/programs-ceremonies/lying-in-state-honor",
@@ -126,6 +131,7 @@
     },
     {
       "media": {
+        "thumbnail": "",
         "url": "https://www.aoc.gov/sites/default/files/styles/scaled_xl/public/10965699893_188e3a5e23_o.jpg?itok=nqCh7C8g",
         "caption": "John F. Kennedy lying in state November 24-25, 1963",
         "link": "https://www.aoc.gov/what-we-do/programs-ceremonies/lying-in-state-honor",
@@ -143,6 +149,7 @@
     },
     {
       "media": {
+        "thumbnail": "",
         "url": "https://upload.wikimedia.org/wikipedia/commons/2/28/JFK_funeral_-_Jacqueline_%26_Robert_Kennedy_entering_limousine.png",
         "caption": "Photograph of Jacqueline Kennedy and Robert Kennedy about to enter a limousine, during funeral services for President John F. Kennedy.",
         "link": "",
@@ -162,6 +169,7 @@
     },
     {
       "media": {
+        "thumbnail": "",
         "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7a/JFK_Funeral_and_temporary_grave_November_25_1963.jpg/582px-JFK_Funeral_and_temporary_grave_November_25_1963.jpg",
         "caption": "Mrs. Jacqueline Kennedy and Robert F. Kennedy walk away from JFK's casket",
         "link": "",
