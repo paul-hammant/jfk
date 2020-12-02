@@ -1,8 +1,6 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/timelinejs/3.6.6/js/timeline-min.js"></script>
 <script>
     /* init timeline */
-    var options = {
-        hash_bookmark: true,
-    }
-    timeline = new TL.Timeline("timeline-embed","{{ '/media/' | append: page.timeline-json | relative_url }}", options);
+    {% if page.timeline-options %}var timelineOptions = {{ page.timeline-options | jsonify }};{% endif %}
+    timeline = new TL.Timeline("timeline-embed","{{ '/media/' | append: page.timeline-json | relative_url }}"{% if page.timeline-options %}, timelineOptions{% endif %});
 </script>

@@ -13,5 +13,5 @@
 <link rel="stylesheet" href="{{ '/assets/css/custom.css' | absolute_url }}" type="text/css">
 
 {% if site.noindex == true or page.noindex == true %}<meta name="robots" content="noindex">{% endif %}
-{% if site.google-analytics-id %}{% include template/google-analytics.html %}{%- endif -%}
+{% include template/analytics.html %}
 <!-- Last build date: {{ site.time | date: "%Y-%m-%d" }} -->
